@@ -1,5 +1,7 @@
 # Generate binary dithered photomasks from continuous transmission functions for lithography/fabrication.
 dependencies: numpy, matplotlib, PIL, gdspy, numba, scipy. Optional: gdstk (for OASIS format, better compression)
+## Report characterizing the experimental results is coming soon!
+Spoiler alert: The theoretical simulations closely align with the experimental measurements!
 
 ## How does it work? 
 1) Edit the transmission_function(), radial_function_to_image(), and generate_mask() according to your needs. You basically need to edit only the
